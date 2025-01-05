@@ -1,7 +1,7 @@
 from time import sleep;
 from colorama import init;
 from termcolor import colored;
-from apis import WordGenerator;
+from api import WordGenerator;
 
 init();
 

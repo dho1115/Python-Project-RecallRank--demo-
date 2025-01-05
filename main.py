@@ -1,13 +1,13 @@
 if __name__ == "__main__":
    import os;
-   from dotenv import load_dotenv, dotenv_values;
+   from dotenv import load_dotenv
    import sys;
 
    load_dotenv(); #load environment variables.
    getfolderpath = os.getenv("folderpath"); 
    sys.path.append(getfolderpath); #Adding a path to folder so I can access WordGenerator from apis.py.
 
-   from folder.FrontInterface import Greeting, Game, PlayAgain;
+   from folder.GameLogic import Greeting, Game, PlayAgain;
 
    def main():
       try:
