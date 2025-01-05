@@ -7,3 +7,6 @@ If you guess right, your score will be increased by the NUMBER OF LETTERS in tha
 BUT...
 
 If you guess wrong, your score will be lowered by the number of letters!!!
+
+The YouTube demo link can be seen here:
+https://www.youtube.com/watch?v=_uI5zQl_7uE
